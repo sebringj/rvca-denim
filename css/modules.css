@@ -205,16 +205,31 @@
   text-align: center;
   margin: 0 -100px;
 }
-.m02 .washes img {
-  width: 13%;
+.m02 .washes div {
+  display: inline-block;
   margin: 2%;
+  width: 13%;
+}
+.m02 .washes img {
+  width: 100%;
+  height: auto;
+}
+.m02 .washes span {
+  font-family: 'Univers-Condensed', helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: #1E1E1E;
+  letter-spacing: 1.25px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  display:block;
 }
 @media(max-width: 800px) {
   .m02 .washes {
     text-align: center;
     margin: 0;
   }
-  .m02 .washes img {
+  .m02 .washes div {
     width: 40%;
     margin: 2%;
   }
